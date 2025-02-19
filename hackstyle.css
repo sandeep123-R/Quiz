@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Darumadrop+One&family=Noto+Serif+Todhri&family=Triodion&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+#p-id {
+    color: lightyellow;
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 50px;
+
+}
+
+a {
+    color: #00796B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+img {
+    height: 80px;
+    width: 100px;
+    border: 1px solid #00796B;
+    border-radius: 20px;
+}
+
+#cbro {
+    margin-left: 920px;
+    position: sticky;
+    position: relative; 
+    z-index: 10; 
+}
+#pyth {
+    margin-left: 620px;
+    margin-bottom: -90px;
+    position: sticky;
+    position: relative; 
+    z-index: 10; 
+
+}
+#jav {
+    margin-left: 310px;
+    margin-bottom: -120px;
+    position: relative; 
+    z-index: 10; 
+}
+
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+
